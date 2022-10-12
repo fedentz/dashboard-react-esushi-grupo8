@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../css/totalProductsXCategory-style.css'
 
 
 function TotalCategorias() {
@@ -17,8 +18,7 @@ function TotalCategorias() {
   }, [])
 
   return (
-    <div>
-      <div >
+    <div className='tpxc-div-1'>
         <div>
           <h5>Total de Categorias {Category.length}</h5>
         </div>
@@ -32,7 +32,6 @@ function TotalCategorias() {
           )
         })
         }
-      </div>
     </div>
   )
 }

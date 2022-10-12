@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../css/totalCategories-style.css'
 
 function CuantaCategoria() {
     const [Category, SetCategories] = useState([]);
@@ -17,7 +18,7 @@ function CuantaCategoria() {
   
     return (
       
-          <div>
+          <div className='tc-div-1'>
             <h5>Total de Categorias: {Category.length}</h5>
           </div>
         

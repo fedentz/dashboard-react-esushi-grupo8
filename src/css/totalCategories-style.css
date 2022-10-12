@@ -1,0 +1,10 @@
+.tc-div-1{
+    background-color: brown;
+    width: 40%;
+    align-self: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 4%;
+
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}

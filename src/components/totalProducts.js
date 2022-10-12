@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../css/totalProducts-style.css'
 
 function TotalProducts() {
     const [Producto, SetProducts] = useState([]);
@@ -17,7 +18,7 @@ function TotalProducts() {
   
     return (
     
-          <div>
+          <div className='tp-div-1'>
             <h5>Total de Productos: {Producto.length}</h5>
           </div>
 
