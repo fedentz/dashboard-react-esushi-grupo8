@@ -18,7 +18,7 @@ function LastProduct(){
 
 return(
                 <div className='lp-div-1'>
-                    <h5 className='lp-h5'>Ultimo producto creado en BD:</h5>
+                    <h1 className='lp-h5'>Ultimo producto creado:</h1>
                     <div className='lp-div-img-'>
                         <img className='lp-img' src={`http://localhost:3030/images/uploads/${LastProduct.image}`} alt="img-LastProduct" width='30%'/>
                     </div>
@@ -27,6 +27,7 @@ return(
                             <h4 className='lp-title'>Titulo: {LastProduct.name}</h4>
                         </div>
                         <p className='lp-price'>Precio: $ {LastProduct.price}</p>
+                        <p className='lp-description'>Descripcion:</p>
                         <p className='lp-description'>{LastProduct.description}</p>
                     </div>
                 </div>         

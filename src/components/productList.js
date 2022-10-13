@@ -17,21 +17,27 @@ function SearchProducts(){
     
     return(
             <div className='pl-div-1'>		
-                    <h4>Total de productos {Products.length} </h4>
-                    <ul>
-                        {Products.length === 0 && <p>Cargando...</p>}
-                        {
-                            Products.map((Products, i) => {
-                                return (
-                                    <li key={i}>
-                                        <h5>{Products.name}</h5>			
-                                        <h6>{Products.description}</h6>
-                                        <img src={`http://localhost:3030/images/${Products.image}`} alt="img-product" width='10%'/>
-                                    </li>
-                                )			
-                            })
-                        }					
-                    </ul>		
+                    
+                    <div className='pl-div-total-products'>
+                        <br></br>
+                        <h4>Total de productos {Products.length} </h4>
+                            {Products.length === 0 && <p>Cargando...</p>}
+                    </div>
+
+                       <div className='pl-div-products-list'>
+                         {
+                             Products.map((Products, i) => {
+                                 return (
+                                     <div className='pl-div-products-dt' key={i}>
+                                         <h5>{Products.name}</h5>			
+                                         <h6>{Products.description}</h6>
+                                         <img src={`http://localhost:3030/images/uploads/${Products.image}`} alt="img-product" width='10%'/>
+                                     </div>
+                                 )			
+                             })
+                         }	
+                       </div>				
+                    		
             </div>
         )
     }

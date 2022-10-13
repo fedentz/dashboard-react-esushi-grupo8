@@ -18,10 +18,10 @@ function App() {
         <LastProduct />  
         <ListProducts />
         <TotalProducts />
-      <div className='App-categories'>
-        <CuantaCategoria />
-        <TotalCategorias />
-      </div>
+        <div className='App-categories'>
+          <CuantaCategoria />
+          <TotalCategorias />
+        </div>
       </div>
       <div className='App-users'>
         <TotalUsers />

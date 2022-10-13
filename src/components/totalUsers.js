@@ -31,7 +31,7 @@ function TotalUsers(){
                                         <h6>Email: {user.email}</h6>
                                     </div>
                                     <div className='tu-div-img'>
-                                        <img src={`http://localhost:3030/images/${user.image}`} alt="usuarios" width='20%'/>
+                                        <img src={`http://localhost:3030/images/avatars/${user.image}`} alt="usuarios" width='20%'/>
                                     </div>
                                 </div>
                             )			
