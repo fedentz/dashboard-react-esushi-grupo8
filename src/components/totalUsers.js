@@ -42,18 +42,4 @@ function TotalUsers(){
         )
     }
     
-/*
-<article class="producto">
-                    <img src="/img/img-tv-samsung-smart.jpg" alt="TV Samsung" width="100%">
-                    <article class="detalleprod">
-                        <i class="camion fas fa-shipping-fast"></i>
-                        <div  class="pyd">
-                            <p class="precio">$23.200</p>
-                            <p class="descuento">5 % Off</p>
-                        </div>  
-                        <p class="descripcion">SmartTv Samsung 43"</p>
-                    </article>  
-                </article> 
- */
-
     export default TotalUsers;

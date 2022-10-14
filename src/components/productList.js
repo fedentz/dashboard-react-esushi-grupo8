@@ -16,22 +16,19 @@ function SearchProducts(){
     }, [])
     
     return(
-            <div className='pl-div-1'>		
+        <div className='pl-Full'>		
                     
-                    <div className='pl-div-total-products'>
-                        <br></br>
-                        <h4>Total de productos {Products.length} </h4>
-                            {Products.length === 0 && <p>Cargando...</p>}
-                    </div>
-
+        <h1 className='pl-title'>Listado de productos:</h1>
+    
                        <div className='pl-div-products-list'>
                          {
                              Products.map((Products, i) => {
                                  return (
                                      <div className='pl-div-products-dt' key={i}>
-                                         <h5>{Products.name}</h5>			
-                                         <h6>{Products.description}</h6>
-                                         <img src={`http://localhost:3030/images/uploads/${Products.image}`} alt="img-product" width='10%'/>
+                                         <h5>id: {Products.id}</h5>			
+                                         <h5>{Products.name}</h5>
+                                         <h6>Precio: {Products.price}</h6>
+                                         <h6>Descripcion: {Products.description}</h6>
                                      </div>
                                  )			
                              })

@@ -1,23 +1,39 @@
-.pl-div-1{
-    background-color: aquamarine;
-    width: 40%;
+.pl-Full{
+    width: 100%;
     align-self: center;
-    flex-direction: column;
     margin: auto;
     border-radius: 0%;
-
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
-.pl-div-total-products{
-    border: 1px;
-    border-bottom: solid;
-    border-color: white;
-    margin: 0 auto;
+.pl-title{
+    color: white;
+    text-align: center;
+    position: static;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .pl-div-products-dt{
-    border-bottom: solid;
+    border: solid;
+    margin: 4px;
     border: 1px;
     border-color: black;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    background-color: antiquewhite;
+   
 }
+.pl-div-products-list{
+    width: 100%;
+    align-self: center;
+    margin: auto;
+    border-radius: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+

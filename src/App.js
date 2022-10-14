@@ -15,10 +15,12 @@ function App() {
     <div className="App">
       <Header />
       <div className='App-products'>
-        <LastProduct />  
-        <ListProducts />
-        <TotalProducts />
-        <div className='App-categories'>
+        <div className='App-izquierda'>
+          <ListProducts />
+        </div>
+        <div className='App-derecha'>
+          <TotalProducts />
+          <LastProduct />  
           <CuantaCategoria />
           <TotalCategorias />
         </div>

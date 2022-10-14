@@ -1,6 +1,28 @@
 .App {
   text-align: center;
-
-  background-color: grey;
+  background-color: white;
   margin: 0;
+  background-image: url(http://localhost:3030/images/Background-image-repeat.jpg);
+  background-repeat: repeat;
 }
+
+.App-products {
+  margin: 0;
+  width: 100%;
+  display: flex;
+}
+
+.App-izquierda {
+  width: 70%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.App-derecha {
+  width: 30%;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  height: 100%;
+}
+
+

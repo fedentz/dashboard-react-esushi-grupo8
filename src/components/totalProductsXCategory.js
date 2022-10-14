@@ -19,9 +19,6 @@ function TotalCategorias() {
 
   return (
     <div className='tpxc-div-1'>
-        <div>
-          <h5>Total de Categorias {Category.length}</h5>
-        </div>
         {Category.length === 0 && <p>Cargando...</p>}
         {Category.map((Category, i) => {
           return (

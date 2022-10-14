@@ -1,10 +1,11 @@
 .tc-div-1{
     background-color: brown;
-    width: 40%;
+    width: 90%;
     align-self: center;
     flex-direction: column;
     margin: auto;
     border-radius: 4%;
-
+    padding: 7px;
+    /* margin-top: 90px; */
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
