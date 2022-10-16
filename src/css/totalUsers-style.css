@@ -1,20 +1,46 @@
 .tu-div-1{
-    background-color: orchid;
-    width: 90%;
-    align-self: center;
-    flex-direction: column;
     margin: auto;
     border-radius: 4%;
+   
+    width: 90%;
+    justify-content: center;
+    align-items: center;
 
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
-.tu-nye{
-    color: greenyellow;
-}
 
 .tu-div-img{
     margin: 0px;
-    display: flex;
+    
 
+}
+.tu-title{
+    justify-content: center;
+    margin:auto;
+    color: white;
+
+}
+.tu-allusers{
+    align-self: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.tu-users{
+    margin: auto;
+    border: solid;
+    width: 30%;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.tu-div-img{
+    max-height: 40px;
+    align-items: center;
+    margin-bottom: 4px;
 }

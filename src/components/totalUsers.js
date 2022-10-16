@@ -17,26 +17,34 @@ function TotalUsers(){
     
     return(
             <div className='tu-div-1'>
-                    <div >
+                    <div className='tu-title' >
                         <h5 >Total Usuarios {Users.length}</h5>
                     </div>
                     <ul>
-                    {Users.length === 0 && <p>Cargando...</p>}
+                <div className='tu-allusers'>
+                        {Users.length === 0 && <p>Cargando...</p>}
                     {
                         Users.map((user, i) => {
                             return (
-                                <div key={i}>
+                                <div className='tu-users' key={i}>
+                                   
                                     <div className='tu-nye'>
                                         <h6>Nombre: {user.first_name} {user.last_name}</h6>										
-                                        <h6>Email: {user.email}</h6>
-                                    </div>
                                     <div className='tu-div-img'>
                                         <img src={`http://localhost:3030/images/avatars/${user.image}`} alt="usuarios" width='20%'/>
                                     </div>
+                                        <br></br>
+                                        <br></br>
+                                        <h6>Email: {user.email}</h6>
+                                    </div>
                                 </div>
+                                
+                
                             )			
                         })
-                    }					
+                        
+                    }	
+                    </div>				
                     </ul>		               
                 </div>
         )
